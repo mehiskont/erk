@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,500');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
 html {
   font-size: 16px;
   line-height: 1.5em;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
 }
 body {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
 }
 body section:nth-child(even) {
   background-color: #fafafa;
@@ -31,6 +31,7 @@ body section:nth-child(even) {
 .menu-bar {
   z-index: 10;
   margin-top: 40px;
+  font-weight: 500;
 }
 .menu-bar a {
   font-size: 18px;
@@ -50,12 +51,12 @@ section {
   margin: auto;
 }
 .island-logo {
-  width: 300px;
-  flex: 0 0 300px;
+  width: 240px;
+  margin-left: 38px;
   align-self: center;
 }
 .island {
-  width: 1000px;
+  width: 1200px;
   z-index: 0;
 }
 .main-wrap section .inner-section {
@@ -96,4 +97,18 @@ section {
 }
 .icon-cross {
   background-image: url('/img/ILANDSOUND_X-03.svg');
+}
+section.live {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  overflow: hidden;
+}
+section.live iframe {
+  margin-top: -120px;
+}
+.broadcast_info {
+  display: none !important;
 }
