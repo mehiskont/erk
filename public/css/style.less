@@ -136,3 +136,37 @@ section.live {
 .broadcast_info {
   display: none !important;
 }
+
+
+
+
+svg#circle {
+  height: 250px;
+  width: 250px;
+}
+g circle {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+g:hover circle {
+  fill: pink;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 700;
+  stroke-width: 10;
+}
+text {
+  fill: pink;
+  font-size: 24px;
+}
+a:hover text {
+  fill: blue;
+}
+
+
+

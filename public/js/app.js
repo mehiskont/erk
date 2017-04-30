@@ -5,9 +5,6 @@ var thisApp = angular
     'ngRoute',
     'MainCtrl',
     'ui.router',
-    'NerdService',
-    'GeekCtrl',
-    'GeekService',
     'NavBarCtrl',
     'duScroll'
     ]);
