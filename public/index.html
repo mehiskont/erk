@@ -43,11 +43,13 @@
 	<!-- HEADER -->
 
 	<header class="main-nav" ng-controller="NavbarController" ng-hide="$state.includes('wip')">
+		<!--
 		<div class="main-nav__btn" ng-class="openMenu ? 'icon-cross':'icon-burger'" ng-click="openMenu = !openMenu"></div>
 		<ng-include ng-class="openMenu ? '':'hidden'" src="'views/navbar.html'"></ng-include>
+		-->
 	</header>
 	<header class="logo-header">
-		<img class="island-logo" src="/img/ILANDSOUND2.gif">
+
 	</header>
 	<!-- ANGULAR DYNAMIC CONTENT -->
 	<div ui-view></div>
