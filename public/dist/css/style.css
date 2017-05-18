@@ -2,98 +2,82 @@
 html {
   font-size: 16px;
   line-height: 1.5em;
-  font-family: 'Catamaran', sans-serif;
 }
 body {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Neuton', serif !important;
 }
 body section:nth-child(even) {
   background-color: #fafafa;
 }
-.wip {
+.erki {
   background-color: #fff;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.landing .inner-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
   position: relative;
 }
-.pos-relative {
-  position: relative;
-}
-.menu-bar {
-  z-index: 10;
-  margin-top: 40px;
-}
-.menu-bar a {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #333;
-}
-.menu-bar a:hover {
-  text-underline: none;
-}
-section {
-  height: 100vh;
-}
-.max-width-1000 {
-  max-width: 1000px;
-}
-.margin-auto {
-  margin: auto;
-}
-.island-logo {
-  width: 300px;
-  flex: 0 0 300px;
-  align-self: center;
-}
-.island {
-  width: 1000px;
-  z-index: 0;
-}
-.main-wrap section .inner-section {
-  max-width: 1200px;
-  margin: auto;
-}
-.main-nav {
-  max-width: 1200px;
-  width: 100%;
-  top: 40px;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  margin: auto;
-  position: fixed;
-  justify-content: flex-end;
-  display: flex;
-}
-.logo-header {
-  max-width: 1200px;
-  width: 100%;
-  left: 0;
-  right: 0;
+.erki .background {
+  position: absolute;
   z-index: 1;
-  margin: auto;
-  position: absolute;
-  top: 40px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.main-nav__btn {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
+.erki .ml-subscribe-form {
+  z-index: 2 !important;
+  position: absolute !important;
+  top: 176px !important;
+}
+.erki .left {
+  position: fixed;
+  background-size: cover;
   top: 0;
+  bottom: -100vh;
+  left: -52px;
+  z-index: 99999;
+  width: 160px;
 }
-.icon-burger {
-  background-image: url('/img/ILANDSOUND_menüü-02.svg');
+.erki .left img {
+  height: 100%;
+  width: 100%;
 }
-.icon-cross {
-  background-image: url('/img/ILANDSOUND_X-03.svg');
+.erki .right {
+  position: fixed;
+  background-size: cover;
+  top: 0;
+  bottom: -100vh;
+  right: -52px;
+  z-index: 99999;
+  width: 160px;
+}
+.erki .right img {
+  height: 100%;
+  width: 100%;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  height: 132px;
+  margin: -6px -10px;
+}
+header img {
+  width: 100%;
+}
+.ml-block-form {
+  padding: 12px;
+  background-color: #fff;
+  text-align: center;
+}
+.ml-block-form button {
+  background-color: #fff;
+}
+.ml-block-form input {
+  border-radius: 0;
+}
+.form-section p {
+  font-size: 18px;
 }

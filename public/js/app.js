@@ -1,7 +1,7 @@
 
 
 var thisApp = angular
-    .module('iLandSound', [
+    .module('Erki', [
     'ngRoute',
     'MainCtrl',
     'ui.router',
