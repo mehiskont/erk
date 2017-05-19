@@ -25,9 +25,9 @@ body section:nth-child(even) {
   object-fit: cover;
 }
 .erki .ml-subscribe-form {
-  z-index: 2 !important;
-  position: absolute !important;
-  top: 176px !important;
+  z-index: 2;
+  position: absolute;
+  top: 176px;
 }
 .erki .left {
   position: fixed;
@@ -80,4 +80,19 @@ header img {
 }
 .form-section p {
   font-size: 18px;
+}
+@media (max-width: 400px) {
+  .left,
+  .right {
+    display: none;
+  }
+  header {
+    top: 2px;
+    height: 60px;
+    margin: -6px -56px;
+    display: flex;
+  }
+  .ml-subscribe-form {
+    top: 84px !important;
+  }
 }
